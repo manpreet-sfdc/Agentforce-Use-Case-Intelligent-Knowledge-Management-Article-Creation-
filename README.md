@@ -95,39 +95,42 @@ public with sharing class AIKnowledgeService {
 
 ```
 
-📊 Key Metrics
-Metric	Description
-🧾 AI Articles Created	Number of AI-suggested Knowledge drafts
-📚 Article Usage Rate	% of cases resolved using AI-suggested articles
-🕒 Article Creation Time	Time saved vs. manual documentation
-🧠 Relevance Accuracy	% of correct article suggestions
-📈 CSAT Improvement	Customer satisfaction after AI adoption
+| Metric                   | Description                                     |
+| ------------------------ | ----------------------------------------------- |
+| 🧾 AI Articles Created   | Number of AI-suggested Knowledge drafts         |
+| 📚 Article Usage Rate    | % of cases resolved using AI-suggested articles |
+| 🕒 Article Creation Time | Time saved vs. manual documentation             |
+| 🧠 Relevance Accuracy    | % of correct article suggestions                |
+| 📈 CSAT Improvement      | Customer satisfaction after AI adoption         |
+
  
 🔐 Security Best Practices
-•	Use Named Credentials (never hardcode API keys).
-•	Redact PII before sending data to the LLM.
-•	Maintain audit logs of AI-suggested articles.
-•	Enforce Knowledge Review workflow before publication.
+
+1. Use Named Credentials (never hardcode API keys).
+2. Redact PII before sending data to the LLM.
+3. Maintain audit logs of AI-suggested articles.
+4. Enforce Knowledge Review workflow before publication.
+
  
 💡 Business Impact
-✅ 60% reduction in manual article authoring time.
-✅ Improved first-contact resolution via AI-suggested content.
-✅ Knowledge base remains current and searchable.
-✅ Agents contribute to documentation effortlessly.
+1. 60% reduction in manual article authoring time.
+2. Improved first-contact resolution via AI-suggested content.
+3. Knowledge base remains current and searchable.
+4. Agents contribute to documentation effortlessly.
  
 🚀 Optional Enhancements
-•	🔗 Slack Integration — “AI Suggest Knowledge Article” button for quick suggestions.
-•	🧩 Einstein Copilot Query — “Show top 5 underused articles last 90 days.”
-•	🌐 Multilingual AI Translation — Auto-create articles in multiple languages.
+1.	🔗 Slack Integration — “AI Suggest Knowledge Article” button for quick suggestions.
+2.	🧩 Einstein Copilot Query — “Show top 5 underused articles last 90 days.”
+3.	🌐 Multilingual AI Translation — Auto-create articles in multiple languages.
  
 📈 Deployment Checklist
-•	Create Knowledge__kav fields for AI metadata.
-•	Configure Named Credential for LLM endpoint.
-•	Deploy Apex class + test class.
-•	Set up Flow to trigger after case closure.
-•	Add Quick Action to Case layout.
-•	Review & Pilot with selected agents.
-•	Build dashboard for metrics.
+1. Create Knowledge__kav fields for AI metadata.
+2. Configure Named Credential for LLM endpoint.
+3. Deploy Apex class + test class.
+4. Set up Flow to trigger after case closure.
+5. Add Quick Action to Case layout.
+6. Review & Pilot with selected agents.
+7. Build dashboard for metrics.
 
 
 
